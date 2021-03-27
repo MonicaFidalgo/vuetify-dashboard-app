@@ -1,0 +1,28 @@
+%o-separator {
+  display: block;
+  width: 100%;
+}
+
+//20px
+.o-separator--variant1 {
+  @extend %o-separator;
+  padding-top: $layout-separator-small;
+}
+
+//30px
+.o-separator--variant2 {
+  @extend %o-separator;
+  padding-top: $layout-separator-medium;
+}
+
+//50px
+.o-separator--variant3 {
+  @extend %o-separator;
+  padding-top: $layout-separator-large;
+}
+
+//70px
+.o-separator--variant4 {
+  @extend %o-separator;
+  padding-top: $layout-separator-xlarge;
+}

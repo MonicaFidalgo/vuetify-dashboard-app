@@ -1,0 +1,76 @@
+//application
+.v-application {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+// sidebar
+.v-tabs {
+  .v-tabs-bar {
+    .v-tab {
+      text-transform: none !important;
+  
+      &.v-tab:not(.v-tab--active) {
+        color: $dark_blue;
+      }
+   
+      &.v-tab--active {
+        color: $brand-primary;
+      }
+    }
+  }
+}
+
+.v-toolbar__title {
+  color: $gray1;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+.v-slide-group__wrapper {
+  padding-top: 110px;
+  min-width: 256px;
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  height: 100vh;
+}
+
+//navbar
+.v-app-bar.navbar.theme--light.v-app-bar.v-toolbar.v-sheet {
+  background-color: $white;
+  box-shadow: none;
+  border-bottom: 1px solid $light-gray;
+}
+
+//card
+.card .v-card {
+  padding: 24px 36px;
+  background-color: $gray;
+  border-radius: 0;
+}
+
+
+//buttons
+.v-btn {
+  text-transform: none;
+}
+
+.v-calendar .v-event{
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 0;
+}
+
+.v-calendar-weekly__day {
+  position: relative;
+}
+
+.v-calendar-weekly__day-label {
+  position: absolute;
+  z-index: 20;
+}
